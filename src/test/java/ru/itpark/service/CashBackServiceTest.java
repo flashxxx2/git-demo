@@ -15,5 +15,12 @@ class CashBackServiceTest {
             assertEquals(expected,actual);
 
         }
+        {
+            CashBackService service = new CashBackService();
+            String actual = service.initials("Васил");
+            String expected = "В";
+            assertEquals(expected,actual);
+
+        }
     }
 }
